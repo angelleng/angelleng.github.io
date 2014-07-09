@@ -1,7 +1,70 @@
 <!DOCTYPE html> 
 <html>
+<head> 
+	<title> Jing Leng </title>
+	<style type="text/css">
+	.pagehead {background-color: #f04fcd}
+	p {margin-left: 20px}
+	
+	.pagetitle {font-family: serif; font-size: xx-large; margin-left: 50px}
+	
+	
+	.navigator {font:12px verdana, arial, sans-serif;}
+	.navigator, .navigator li {list-style-type: none; padding: 0; margin: 0}
+	.navigator li {float: left}
+	
+	
+	.navigator li a {
+		display:block;
+		/* 如果是中英文混排的文字，建议用固定宽度
+		width:150px;
+		height:30px;
+		line-height:30px;
+		text-align:center;
+		*/
+		padding:8px 50px;
+		background:rgba(38,44,48,0.88);
+		color:#fcf6f6;
+		text-decoration:none;
+		border-right:1px solid #000;
+		}
+	.navigator li a:hover {
+		background:#146C9C;
+		color:#fff;
+		text-decoration:none;
+		border-right:1px solid #000;
+		}
+	.navigator li a.last {
+		border-right:0; /* 去掉左侧边框 */
+		}
+
+	.clearfix {clear: both;}
+	
+	h3 {font-family: Arial; margin-left: 20px}
+	
+	
+</style>
+	
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+<div class = "pagehead" > 
+	<div class = "pagetitle"> Jing Leng</div> 
+	<div class = "topbar"> 
+		<ul class="navigator" style = "display: block">
+			<li><a href=“/“ target="_blank">home</a></li>
+			<li><a href="baidu.com" target="_blank">about me</a></li>
+			<li><a href="/" target="_blank">blogposts</a></li>
+			<li><a href="/" target="_blank">projects</a></li>
+		</ul>
+		
+		
+	</div>
+
+</div>  
+
+<h3 class="clearfix">About me </h3>
+
+<p>那什么，这是我的个人主页。目前比较粗糙，我先厚着脸皮把它上线了。如果你因为各种途径找到了这里，先忍忍吧。过阵子会完善的。</p>
 </body>
 </html>

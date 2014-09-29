@@ -14,6 +14,7 @@
 	.navigator li {float: left}
 	
 	
+	
 	.navigator li a {
 		display:block;
 		/* 如果是中英文混排的文字，建议用固定宽度
@@ -43,6 +44,21 @@
 	h3 {font-family: Arial; margin-left: 20px}
 	
 	
+	
+	
+	.clearfix: after {
+		visibility: hidden;
+		display: block;
+		content: " ";
+		clear: both;
+		height: 0; 
+	}
+	.clearfix {
+		zoom: 1
+	}
+	
+	bo
+	
 </style>
 	
 </head>
@@ -62,9 +78,13 @@
 	</div>
 
 </div>  
+<div id="body"> 
 
 <h3 class="clearfix">About me </h3>
 
+</div>
+
+<div id="side"> </div>
 <p>那什么，这是我的个人主页。目前比较粗糙，我先厚着脸皮把它上线了。如果你因为各种途径找到了这里，先忍忍吧。过阵子会完善的。</p>
 </body>
 </html>

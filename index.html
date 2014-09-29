@@ -1,14 +1,21 @@
 <!DOCTYPE html> 
-<html>
+<html lang = "zh-CN">
 <head> 
+	<meta charset = "UTF-8">
 	<title> Jing Leng </title>
 	<style type="text/css">
+	body {background-color: #F8F8F8}
 	.pagehead {background-color: #f04fcd}
 	p {margin-left: 20px}
 	
-	.pagetitle {font-family: serif; font-size: xx-large; margin-left: 50px}
+	.pagetitle {margin-left: 50px; height: 60px;}
 	
-	
+	.content, .pagehead {margin-left: auto; margin-right: auto; width: 700px }
+	#myname {font-family: Georgia;font-size: large; float: left;}
+	#motto {float: left; font-family: "Microsoft Yahei"; margin-bottom: 0px; margin-top: 33px; margin-left: 80px}
+
+
+
 	.navigator {font:12px verdana, arial, sans-serif;}
 	.navigator, .navigator li {list-style-type: none; padding: 0; margin: 0}
 	.navigator li {float: left}
@@ -17,12 +24,7 @@
 	
 	.navigator li a {
 		display:block;
-		/* 如果是中英文混排的文字，建议用固定宽度
-		width:150px;
-		height:30px;
-		line-height:30px;
-		text-align:center;
-		*/
+		
 		padding:8px 50px;
 		background:rgba(38,44,48,0.88);
 		color:#fcf6f6;
@@ -36,13 +38,15 @@
 		border-right:1px solid #000;
 		}
 	.navigator li a.last {
-		border-right:0; /* 去掉左侧边框 */
-		}
-
+		border-right:0;
+	}
 	.clearfix {clear: both;}
 	
-	h3 {font-family: Arial; margin-left: 20px}
+
+
 	
+
+	h3 {font-family: Arial sans-serif; margin-left: 20px}
 	
 	
 	
@@ -65,12 +69,15 @@
 <body>
 
 <div class = "pagehead" > 
-	<div class = "pagetitle"> Jing Leng</div> 
+	<div class = "pagetitle">
+		<p id = "myname"> Jing Leng </p> 
+		<p id = "motto"> 有趣而有用 </p> 
+	</div> 
 	<div class = "topbar"> 
 		<ul class="navigator" style = "display: block">
-			<li><a href=“/“ target="_blank">home</a></li>
-			<li><a href="baidu.com" target="_blank">about me</a></li>
-			<li><a href="/" target="_blank">blogposts</a></li>
+			<li><a href=“/“ target="_self">home</a></li>
+			<li><a href="http://www.baidu.com">about me</a></li>
+			<li><a href="blogs.html" target="_self">blogposts</a></li>
 			<li><a href="/" target="_blank">projects</a></li>
 		</ul>
 		
@@ -78,6 +85,7 @@
 	</div>
 
 </div>  
+<<<<<<< HEAD
 <div id="body"> 
 
 <h3 class="clearfix">About me </h3>
@@ -86,5 +94,13 @@
 
 <div id="side"> </div>
 <p>那什么，这是我的个人主页。目前比较粗糙，我先厚着脸皮把它上线了。如果你因为各种途径找到了这里，先忍忍吧。过阵子会完善的。</p>
+=======
+<div class = "content clearfix"> 
+	<h3 > About me </h3>
+
+	<p>那什么，这是我的个人主页。目前比较粗糙，我先厚着脸皮把它上线了。如果你因为各种途径找到了这里，麻烦你假装一下这里有一篇文采斐然的个人介绍。</p>
+	<p>其实更重要的是要假装这个页面狠好看。</p>
+</div>
+>>>>>>> FETCH_HEAD
 </body>
 </html>

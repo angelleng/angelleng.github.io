@@ -1,4 +1,3 @@
-
 <!DOCTYPE html> 
 <html lang = "zh-CN">
 <head> 
@@ -6,63 +5,73 @@
 	<title> Jing Leng: homepage </title>
 	<style type="text/css">
 	body {background-color: #F8F8F8}
-	.pagehead {background-color: #f04fcd}
-	p {margin-left: 20px}
+/* 	.pagehead {background-color: #f04fcd} */
+
 	
-	.pagetitle {margin-left: 50px; height: 60px;}
+	.pagetitle {margin-left: 0; height: 60px;}
 	
 	.content, .pagehead {margin-left: auto; margin-right: auto; width: 700px }
-	#myname {font-family: Georgia;font-size: large; float: left;}
-	#motto {float: left; font-family: "Microsoft Yahei"; margin-bottom: 0px; margin-top: 33px; margin-left: 80px}
+
+	#myname {margin-top: 20px; font-family: Georgia;font-size: 30px; float: left;}
+	#motto {float: left; font-family: "Microsoft Yahei"; margin-top: 25px; margin-left: 20px; color: #6c6c6c; font-size: 20px}
 
 
 
-	.navigator {font:12px verdana, arial, sans-serif;}
-	.navigator, .navigator li {list-style-type: none; padding: 0; margin: 0}
+	.navigator {font:15px verdana, arial, sans-serif;}
+	.navigator li {list-style-type: none; padding: 0; margin-top: 0; margin-bottom: 15px}
+	.navigator {padding: 0; margin: 0}
+	
 	.navigator li {float: left}
 	
 	
 	
 	.navigator li a {
 		display:block;
-		
-		padding:8px 50px;
-		background:rgba(38,44,48,0.88);
-		color:#fcf6f6;
+		margin-left: auto; 
+		margin-right: auto; 
+		padding:3px 50px;
+/* 		background:rgba(215,63,63,0.88); */
+		color:#f50b0b;
 		text-decoration:none;
-		border-right:1px solid #000;
+/* 		border-left :1px solid #eb0a0a; */
 		}
 	.navigator li a:hover {
 		background:#146C9C;
 		color:#fff;
 		text-decoration:none;
-		border-right:1px solid #000;
+/* 		border-right:1px solid #000; */
 		}
-	.navigator li a.last {
-		border-right:0;
+		
+	li {width: 172px}
+		
+	.navigator li a.first {
+		border-left:1px solid #eb0a0a;
 	}
+	
+	.navigator li a.last {
+		border-right: 1px solid #eb0a0a;
+	}
+	
 	.clearfix {clear: both;}
 	
 
 
 	
 
-	h3 {font-family: Arial sans-serif; margin-left: 20px}
+	h3 {font-family: Arial sans-serif; margin-top:  50px}
 	
-	
-	
+		
 	.clearfix: after {
 		visibility: hidden;
 		display: block;
 		content: " ";
 		clear: both;
-		height: 0; 
+/* 		height: 0;  */
 	}
 	.clearfix {
 		zoom: 1
 	}
 	
-	bo
 	
 </style>
 	
@@ -71,15 +80,15 @@
 
 <div class = "pagehead" > 
 	<div class = "pagetitle">
-		<p id = "myname"> Jing Leng </p> 
-		<p id = "motto"> 有趣而有用 </p> 
+		<div id = "myname"> Jing Leng </div> 
+		<small id = "motto"> 有趣而有用 </small> 
 	</div> 
 	<div class = "topbar"> 
 		<ul class="navigator" style = "display: block">
-			<li><a href=“/“ target="_self">home</a></li>
+			<li><a class = "first" href="/" target="_self">home</a></li>
 			<li><a href="http://www.baidu.com">about me</a></li>
 			<li><a href="blogs.html" target="_self">blogposts</a></li>
-			<li><a href="/" target="_blank">projects</a></li>
+			<li><a class = "last" href="/" target="_blank">projects</a></li>
 		</ul>
 		
 		
@@ -88,10 +97,13 @@
 </div>  
 <div id="body"> 
 <div class = "content clearfix"> 
+	
 	<h3 > About me </h3>
-
+	<p> 我才不是码农! </p>
+	
 	<p>那什么，这是我的个人主页。目前比较粗糙，我先厚着脸皮把它上线了。如果你因为各种途径找到了这里，麻烦你假装一下这里有一篇文采斐然的个人介绍。</p>
 	<p>其实更重要的是要假装这个页面狠好看。</p>
+</div>
 </div>
 </body>
 </html>

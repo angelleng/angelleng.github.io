@@ -6,7 +6,7 @@ body {background-color: #F8F8F8}
 	
 	.content, .pagehead {margin-left: auto; margin-right: auto; width: 650px}
 
-	.content {font-family: 'telexregular' 'Microsoft Yahei'}
+	.content {font-family: 'telexregular' 'Hiragino Sans GB' 'Microsoft Yahei'}
 	
 	#myname {/* margin-top: 20px; */ font-family: 'telexregular' 'Electrolize'  'Helvetica Neue' 'Microsoft Yahei' verdana Georgia; font-size: 30px; float: left;}
 	#motto {float: left; font-family: 'Hiragino Sans GB' "Microsoft Yahei";  margin-top: 5px; margin-left: 20px; color: #6c6c6c; font-size: 20px}
